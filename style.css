@@ -637,6 +637,9 @@ padding: 9px;
 
 /* Медіазапит для екранів з шириною від 768px до 1023px */
 @media (min-width: 648px) and (max-width: 1077px) {
+      .basket-main, .likes-main{
+        max-width: 100%;
+    }
     .main-first {
         padding: 20px;
         display: inline;
